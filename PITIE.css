@@ -1,0 +1,287 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    min-height: 100vh; 
+
+}
+header{
+    height: 100px;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-style: normal; 
+}
+
+nav{
+    width: 100%;
+    background-color: blueviolet;
+    box-shadow: 0px 0px 5px black;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+}
+
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+nav a:hover{
+    color: white;
+    text-shadow: 0px 0px 20px black;
+}
+
+.Barre{
+    display: table;
+    margin: 0 auto;
+}
+
+.TextDebut{
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+    font-style:normal; 
+}
+
+p{  font-size: 20px;
+    padding: 0px 5px 0px 5px;
+}
+
+.type{
+    text-align: center;
+}
+
+.type a{
+    text-transform:capitalize;
+    text-decoration: none;
+    color: black;}
+
+.type a:hover{
+    color: blueviolet;
+    text-shadow: 0px 0px 25px black;
+}
+
+.type dd{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.soloo{
+    width: 250px;
+    height: auto;
+    box-shadow: 0px 0px 5px black;
+}
+
+.Cr{
+    width: 200px;
+    height: auto;
+    box-shadow: 0px 0px 5px black;
+}
+
+.imgEm{
+ width:200px ;
+ height: auto;
+ box-shadow: 0px 0px 5px black;
+}
+
+fieldset{
+    background-color: blueviolet;
+    margin: 0px 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+fieldset a:hover{
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+
+fieldset a{
+    text-decoration: none;
+    font-style: normal;
+    color: black;
+}
+
+fieldset legend{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+input[type="submit"]{
+    background-color: white;
+    box-shadow: 0px 0px black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+}
+input[type="submit"]:hover{
+    color: blueviolet;
+    text-shadow: 5px black;
+}
+
+
+
+#solo1{
+    width: 100px;
+    height: px;
+}
+
+#solo2{
+    width: 100px;
+    height: px;
+}
+
+#solo3{
+    width: 100px;
+    height: px;
+}
+    
+
+.Solo img {
+    float: left;
+    text-align: center;
+}
+
+
+.Solo{
+    width: 250px;
+    height: 200px;
+    display: block;
+    font-size: 0%;
+    background-color: white;
+    color:  white;
+    box-shadow: 0px 0px 0px white;
+    padding-top: 20px;
+    padding-left: 20px;
+    transition: 2s width 2s ease , 2s box-shadow 2s ease, 4s background-color 1s ease, 3s color 1s ease , 3s height 2s ease , 3s text-align 3s ease , 3s padding 2s ease , 3s font-size 2s ease;}
+
+.Solo:hover{
+    display: block;
+    padding: 0px 100px 0px 100px;
+    width: 85%;
+    height: 400px;
+    font-size: 20px;
+    background-color: blueviolet;
+    box-shadow: 0px 0px 5px black;
+    color: black;}
+
+.Solo legend{
+    padding: 10px 0px 10px 0px;
+}
+
+.vert{
+    width: 250px;
+    height: 200px;
+    display: block;
+    font-size: 0%;
+    background-color: white;
+    color:  white;
+    box-shadow: 0px 0px 0px white;
+    padding-top: 20px;
+    padding-left: 20px;
+    transition: 2s width 2s ease , 2s box-shadow 2s ease, 4s background-color 1s ease, 3s color 1s ease , 3s height 2s ease , 3s text-align 3s ease , 3s padding 2s ease , 3s font-size 2s ease;}
+
+.vert:hover{
+    display: block;
+    padding: 0px 100px 0px 100px;
+    width: 85%;
+    height: 400px;
+    font-size: 20px;
+    background-color: green;
+    box-shadow: 0px 0px 5px black;
+    color: black;}
+
+.vert legend{
+    padding: 10px 0px 10px 0px;
+}
+
+.tbate{
+    float: left;
+    width: 230px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.rouge{
+    width: 250px;
+    height: 200px;
+    display: block;
+    font-size: 0%;
+    background-color: white;
+    color:  white;
+    box-shadow: 0px 0px 0px white;
+    padding-top: 20px;
+    padding-left: 20px;
+    transition: 2s width 2s ease , 2s box-shadow 2s ease, 4s background-color 1s ease, 3s color 1s ease , 3s height 2s ease , 3s text-align 3s ease , 3s padding 2s ease , 3s font-size 2s ease;}
+
+.rouge:hover{
+    display: block;
+    padding: 0px 100px 0px 100px;
+    width: 85%;
+    height: 400px;
+    font-size: 20px;
+    background-color: red;
+    box-shadow: 0px 0px 5px black;
+    color: black;}
+
+.rouge legend{
+    padding: 10px 0px 10px 0px;
+}
+
+.rose{
+    width: 250px;
+    height: 200px;
+    display: block;
+    font-size: 0%;
+    background-color: white;
+    color:  white;
+    box-shadow: 0px 0px 0px white;
+    padding-top: 20px;
+    padding-left: 20px;
+    transition: 2s width 2s ease , 2s box-shadow 2s ease, 4s background-color 1s ease, 3s color 1s ease , 3s height 2s ease , 3s text-align 3s ease , 3s padding 2s ease , 3s font-size 2s ease;}
+
+.rose:hover{
+    display: block;
+    padding: 0px 100px 0px 100px;
+    width: 85%;
+    height: 400px;
+    font-size: 20px;
+    background-color: pink;
+    box-shadow: 0px 0px 5px black;
+    color: black;}
+
+.rose legend{
+    padding: 10px 0px 10px 0px;
+}
+
+.tbate{
+    float: left;
+    width: 230px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.em{
+    float: left;
+    width: 175px;
+    box-shadow: 0px 0px 5px black;
+}
